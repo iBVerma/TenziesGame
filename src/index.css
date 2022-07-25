@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2B283A;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+main{
+  background-color: white;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dice{
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.15);
+  height: 60px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-right: 20px; */
+}
+
+.dice > h2{
+  font-size: 30px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.dice-{
+  display: grid;
+  grid-template: auto auto / repeat(5,1fr);
+  gap: 20px;
+}
+
+.rolldice{
+  margin-top: 20px;
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  border: none;
+  background-color: #5035FF;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Karla', sans-serif;
+}
+
+.rolldice:focus{
+  outline: none;
+}
+
+.rolldice:active{
+  box-shadow: inset 5px 5px 10px -3px rgba(0,0,0,0.7);
+}
+
+.turns{
+  font-family: 'Karla', sans-serif;
+  font-weight: 200;
+}
