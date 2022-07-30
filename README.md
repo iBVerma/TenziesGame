@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Live Link of Netlify:
-https://62e5065fb929a76c1aef0555--game512.netlify.app/
+https://62e5739a07f32439ca84ab66--game512.netlify.app/
 
 ## Available Scripts
 
